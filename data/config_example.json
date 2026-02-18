@@ -1,0 +1,35 @@
+{
+  "device": {
+    "client_id": "esp32s3-lis331-XX"
+  },
+  "wifi": {
+    "ssid": "YOUR_SSID",
+    "password": "YOUR_WIFI_PASS"
+  },
+  "mqtt": {
+    "host": "MQTT_HOST",
+    "port": 8883,
+    "username": "MQTT_USER",
+    "password": "MQTT_PASS",
+    "topic": "TOPIC"
+  },
+  "tls": {
+    "ca_path": "/ca.pem"
+  },
+  "sensor": { 
+    "i2c_addr": 24, 
+    "range_g": 6 
+  },
+  "ntp": {
+    "server1": "pool.ntp.org",
+    "server2": "time.google.com",
+    "server3": "time.nist.gov",
+    "timeout_s": 15
+  },
+  "sleep": {
+    "seconds": 300
+  },
+  "acq": { 
+    "n_samples": 600, "fs_hz": 400 
+  }
+}
