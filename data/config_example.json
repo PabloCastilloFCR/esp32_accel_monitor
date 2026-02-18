@@ -16,9 +16,9 @@
   "tls": {
     "ca_path": "/ca.pem"
   },
-  "sensor": { 
-    "i2c_addr": 24, 
-    "range_g": 6 
+  "sensor": {
+    "i2c_addr": 24,
+    "range_g": 6
   },
   "ntp": {
     "server1": "pool.ntp.org",
@@ -29,7 +29,9 @@
   "sleep": {
     "seconds": 300
   },
-  "acq": { 
-    "n_samples": 600, "fs_hz": 400 
+  "acq": {
+    "n_samples": 600,
+    "fs_hz": 400,
+    "mag_rms_threshold": 10.78
   }
 }
